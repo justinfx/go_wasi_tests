@@ -72,7 +72,7 @@ func doTest(fn func(data []byte) ([]byte, error), data []byte) {
 		os.Exit(1)
 	}
 
-	fmt.Printf("  Elapsed: %s, Count: %v\n", end, dest["count"])
+	fmt.Printf("  Elapsed: %s, [Result] Count: %v\n", end, dest["count"])
 }
 
 type WazeroPlugin struct {
